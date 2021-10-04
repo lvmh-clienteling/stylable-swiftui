@@ -12,10 +12,10 @@
     "git": "https://github.com/design-ops/stylable-swiftUI.git",
     "tag": "v3.0.0"
   },
-  "swift_versions": "5.2",
+  "swift_versions": "5.8",
   "platforms": {
-    "ios": "13.0"
+    "ios": "14.0"
   },
   "source_files": "StylableSwiftUI/Classes/**/*{.swift}",
-  "swift_version": "5.2"
+  "swift_version": "5.8"
 }
