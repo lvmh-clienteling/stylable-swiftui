@@ -5,8 +5,8 @@
 import Foundation
 
 struct StyleCacheKey: Hashable {
-    var identifier:StylistIdentifier
-    var theme:Theme?
+    var identifier: StylistIdentifier
+    var theme: Theme?
 
     init(identifier: StylistIdentifier, theme: Theme?) {
         self.identifier = identifier
