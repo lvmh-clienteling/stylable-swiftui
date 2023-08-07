@@ -204,7 +204,7 @@ extension StylistIdentifier {
                  bundle: Bundle? = nil,
                  compatibleWith traits: UITraitCollection? = nil,
                  theme: Theme? = nil) -> UIImage? {
-        if let bestMatch = Stylist.scoredImageStyleMatchCache[StyleCachKey(identifier: self, theme: theme)] {
+        if let bestMatch = Stylist.scoredImageStyleMatchCache[StyleCacheKey(identifier: self, theme: theme)] {
             return UIImage(named: bestMatch, in: bundle, compatibleWith: traits)
         }
 
@@ -212,7 +212,7 @@ extension StylistIdentifier {
             .lazy
             .first { UIImage(named: $0, in: bundle, compatibleWith: traits) != nil }
 
-        Stylist.scoredImageStyleMatchCache[StyleCachKey(identifier: self, theme: theme)] = bestMatch
+        Stylist.scoredImageStyleMatchCache[StyleCacheKey(identifier: self, theme: theme)] = bestMatch
         return bestMatch.map { UIImage(named: $0, in: bundle, compatibleWith: traits) } ?? nil
     }
 }

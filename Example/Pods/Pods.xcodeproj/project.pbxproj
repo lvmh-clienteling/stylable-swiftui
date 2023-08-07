@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16037D4E2A80EE360096BF50 /* StyleCacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16037D4D2A80EE360096BF50 /* StyleCacheKey.swift */; };
 		4938DA69FAA40D1E791E88CA414BB09D /* StylableSwiftUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A16D57C0B923FBAF1618D0D71A188B27 /* StylableSwiftUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49D652DB531DC80472E448CF12EB54BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		55E13083FA2847BDBCC1B2BF08D44C74 /* StylableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC465AFFA9CF63E30CE8FBD530E4AE5 /* StylableImage.swift */; };
@@ -51,9 +52,10 @@
 
 /* Begin PBXFileReference section */
 		0B82A4892A64301368F000C6EE5A539E /* Pods-StylableSwiftUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StylableSwiftUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		16037D4D2A80EE360096BF50 /* StyleCacheKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCacheKey.swift; sourceTree = "<group>"; };
 		1A8A66214C0EA20E71C24FDF5C8C99B2 /* DebugStylist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugStylist.swift; path = StylableSwiftUI/Classes/DebugStylist.swift; sourceTree = "<group>"; };
 		1E192307550D7B254984A9E9A13251F0 /* Pods-StylableSwiftUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StylableSwiftUI_Tests.modulemap"; sourceTree = "<group>"; };
-		20A26E047E0A32F2148CCF96650DC54A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		20A26E047E0A32F2148CCF96650DC54A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		211D64C4031EF9B92474B24D37D2CFD8 /* StylableSwiftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StylableSwiftUI.modulemap; sourceTree = "<group>"; };
 		2E3034F755162A44193D114320F95627 /* Pods-StylableSwiftUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylableSwiftUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		30AFE4E822B18CEC1E51FF698D5012BF /* Pods-StylableSwiftUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylableSwiftUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,7 +75,7 @@
 		885D8CD6DBEE58F7EF643D98CB7228FB /* View+style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+style.swift"; path = "StylableSwiftUI/Classes/View+style.swift"; sourceTree = "<group>"; };
 		925CBCEC765299618CD1CE49E9BC80AE /* Stylist+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Stylist+UIKit.swift"; sourceTree = "<group>"; };
 		94DA90434E0D0EAAB0CF3526CEB83492 /* StylableSwiftUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StylableSwiftUI; path = StylableSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E1A265CEC581D4352B42CF672FD2D32 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = StylableSwiftUI/Classes/Theme.swift; sourceTree = "<group>"; };
 		A16D57C0B923FBAF1618D0D71A188B27 /* StylableSwiftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StylableSwiftUI-umbrella.h"; sourceTree = "<group>"; };
 		A2AD1A2E6AACDD358DC0F2512A798033 /* Pods-StylableSwiftUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StylableSwiftUI_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -83,9 +85,9 @@
 		B2679FDC59C5D47222AE00A0B98AB707 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = StylableSwiftUI/Classes/Logger.swift; sourceTree = "<group>"; };
 		BDBD503D10E60553838CE5E004841BD8 /* Pods-StylableSwiftUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StylableSwiftUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BEEA59C1E4FA08984C4BD3364CB3AE75 /* UIKitStyleContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIKitStyleContainer.swift; sourceTree = "<group>"; };
-		C4940133943C2E4D5AB6D054807D08D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C4940133943C2E4D5AB6D054807D08D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C935C69DD539E3E26563528D513DBB3D /* Pods-StylableSwiftUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StylableSwiftUI_Tests"; path = Pods_StylableSwiftUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEDC03F1D53D6670772FF0FD1F354A6B /* StylableSwiftUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StylableSwiftUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEDC03F1D53D6670772FF0FD1F354A6B /* StylableSwiftUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = StylableSwiftUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF69B6E38515C993435112474EC6BB8B /* StylistIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StylistIdentifier.swift; path = StylableSwiftUI/Classes/StylistIdentifier.swift; sourceTree = "<group>"; };
 		D0DB715E4C32C703409D358E1C577744 /* StylableGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StylableGroup.swift; path = StylableSwiftUI/Classes/StylableGroup.swift; sourceTree = "<group>"; };
 		D1DD3D846172B29A86C7B9A95EF86EE7 /* Pods-StylableSwiftUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StylableSwiftUI_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				A3FF9EF0DF34F5F503A0EB02C1A71FA0 /* Pod */,
 				58B761FB0D32408E20076CF4B5C0C1AB /* Support Files */,
 				D5FD1859FABDF2C442602E2B63D4F11A /* UIKit */,
+				16037D4D2A80EE360096BF50 /* StyleCacheKey.swift */,
 			);
 			name = StylableSwiftUI;
 			path = ../..;
@@ -427,6 +430,7 @@
 				A758AB73341B16F911AD2BFFE17C35A8 /* StylistIdentifierMatcher.swift in Sources */,
 				D5DF305067ED25B5B9339D73E72C4822 /* Theme.swift in Sources */,
 				BD7691B970B61D663F1506F0E56FB2F4 /* ThemedStylistIdentifier.swift in Sources */,
+				16037D4E2A80EE360096BF50 /* StyleCacheKey.swift in Sources */,
 				EF2046F6D64FFE228FE8860362FB5C1E /* UIKitStyleContainer.swift in Sources */,
 				8EBEEC0E3C4FD8EDECF7C6243F80B23A /* View+style.swift in Sources */,
 				FB0C8FC2DBAAB0E2311E2995F01D4430 /* WithStyleIdentifier.swift in Sources */,
@@ -724,8 +728,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
